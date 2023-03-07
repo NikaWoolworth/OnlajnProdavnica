@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="skripta.js"></script>
+</head>
+<body onload="initProdavnica()">
+    <h1 id="naslov"></h1>
+    <div id="filteri">
+        Nike : <input type="checkbox" id="nike" checked> 
+        Adidas : <input type="checkbox" id="adidas" checked> 
+        Puma : <input type="checkbox" id="puma" checked> 
+        Skechers : <input type="checkbox" id="skechers" checked> 
+        <button onclick="filtriraj()">Filtriraj</button>
+        <hr>
+    </div>
+    <div id="artikli">
+        <img class="artikal nike" src="images/artikal_1.jpg" alt="" id="artikal_1">
+        <img class="artikal nike" src="images/artikal_2.jpg" alt="" id="artikal_2">
+        <img class="artikal nike" src="images/artikal_3.jpg" alt="" id="artikal_3">
+        <img class="artikal adidas" src="images/artikal_4.jpg" alt="" id="artikal_4">
+        <img class="artikal adidas" src="images/artikal_5.jpg" alt="" id="artikal_5">
+        <img class="artikal puma" src="images/artikal_6.jpg" alt="" id="artikal_6">
+        <img class="artikal puma" src="images/artikal_7.jpg" alt="" id="artikal_7">
+        <img class="artikal puma" src="images/artikal_8.jpg" alt="" id="artikal_8">
+        <img class="artikal skechers" src="images/artikal_9.jpg" alt="" id="artikal_9">
+        <img class="artikal skechers" src="images/artikal_10.jpg" alt="" id="artikal_10">
+    </div>
+    <button onclick="prikaziKorpu()">Prikazi korpu</button>
+    <button onclick="isprazniKorpu()">Isprazni korpu</button>
+    <button onclick="izlogujSe()">Izloguj se</button>
+</body>
+</html>
